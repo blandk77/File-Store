@@ -22,7 +22,7 @@ API_ID = int(environ.get("API_ID", "26728872"))
 API_HASH = environ.get("API_HASH", "96985c2aaea6c75408528909b7e18879")
 BOT_TOKEN = environ.get("BOT_TOKEN", "7671156339:AAGoE8wY-ScAWWBYvoNOaB17LPY_SyZj4u8")
 
-PICS = (environ.get('PICS', 'https://graph.org/file/ce1723991756e48c35aa1.jpg')).split() # Bot Start Picture
+PICS = (environ.get('PICS', 'https://graph.org/file/ab1c0c00ef19254d30a9c-8de9285b0ca504bd30.jpg')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1705634892').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "pub_filerobot") # without @
 PORT = environ.get("PORT", "8080")
@@ -46,7 +46,7 @@ AUTO_DELETE = int(environ.get("AUTO_DELETE", "30")) # Time in Minutes
 AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "1800")) # Time in Seconds
 
 # Channel Information
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", ""))
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002172407811"))
 
 # File Caption Information
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
