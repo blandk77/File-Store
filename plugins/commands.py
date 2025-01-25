@@ -77,11 +77,6 @@ async def start(client, message):
             reply_markup=reply_markup
         )
         return
-
-# Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
-    
     data = message.command[1]
     try:
         pre, file_id = data.split('_', 1)
